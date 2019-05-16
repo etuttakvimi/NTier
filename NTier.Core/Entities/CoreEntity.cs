@@ -4,11 +4,7 @@ namespace NTier.Core.Entities
 {
     public class CoreEntity : ICoreEntity
     {
-        public Guid Id { get; set; } 
-
-
-
-
+        public Guid Id { get; set; }  
         public DateTime CreatedDate { get; set; }
         public string CreatedComputerName { get; set; }
         public string CreatedIP { get; set; }
