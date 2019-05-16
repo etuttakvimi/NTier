@@ -11,9 +11,13 @@ namespace NTier.Core.Entities
         public string CreatedIP { get; set; }
         public Guid CreatedBy { get; set; }
 
+        public string CreatedAADUsername { get; set; }
+
         public DateTime? ModifiedDate { get; set; }
         public string ModifiedComputerName { get; set; }
         public string ModifiedIP { get; set; }
         public Guid? ModifiedBy { get; set; }
+        public string ModifiedCreatedAADUsername { get; set; }
+
     }
 }
