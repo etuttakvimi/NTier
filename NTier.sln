@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Core", "NTier.Core\NTier.Core.csproj", "{EEA19F27-3D05-46AD-AFE6-116265BF9D75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Entities", "NTier.Entities\NTier.Entities.csproj", "{5BF192E4-4877-4CE0-82D9-C6B8A4FBAF6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Services", "NTier.Services\NTier.Services.csproj", "{E6688A85-5451-4A42-B3CB-672CCF6A2F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EEA19F27-3D05-46AD-AFE6-116265BF9D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA19F27-3D05-46AD-AFE6-116265BF9D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA19F27-3D05-46AD-AFE6-116265BF9D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF192E4-4877-4CE0-82D9-C6B8A4FBAF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF192E4-4877-4CE0-82D9-C6B8A4FBAF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF192E4-4877-4CE0-82D9-C6B8A4FBAF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF192E4-4877-4CE0-82D9-C6B8A4FBAF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6688A85-5451-4A42-B3CB-672CCF6A2F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6688A85-5451-4A42-B3CB-672CCF6A2F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6688A85-5451-4A42-B3CB-672CCF6A2F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6688A85-5451-4A42-B3CB-672CCF6A2F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
